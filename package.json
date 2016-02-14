@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/app.js -o public/app.js -t [ babelify --presets [ es2015 ] ]",
-    "prod-build": "browserify src/app.js -o public/app.js -t unassertify -t [ babelify --presets [ es2015 ] ]"
+    "build": "browserify src/js/app.js -o public/js/app.js -t [ babelify --presets [ es2015 ] ]",
+    "prod-build": "browserify src/js/app.js -o public/js/app.js -t unassertify -t [ babelify --presets [ es2015 ] ]"
   },
   "keywords": [],
   "author": "tgfjt",
